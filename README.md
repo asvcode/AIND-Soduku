@@ -9,11 +9,9 @@ Constraint propagation is in simple terms a method that makes a given problem si
 Q: How do we use constraint propagation to solve the naked twins problem?  
 A:  The Naked Twins technique is a way of using constrait propagation to exclude possibilites in a group.  In this case we identify a pair of twins within the same set of peers that have the same 2 numbers as possibilites.  The twin squares are typically visibile and hence the term 'naked twins'.  Because these two twins have no other possibilites we can deduce that 1 square must have 1 of the numbers and the other square the other number, hence a means of contraint propagation in order to reduce possible values.
 
- <p align="center">
-  <img src="your_relative_path_here" width="350"/>
-  <img src="your_relative_path_here_number_2_large_name" width="350"/>
+<p align="center">
+  <img src="twins-git.png" />
 </p>
-
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
