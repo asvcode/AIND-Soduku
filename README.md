@@ -1,11 +1,13 @@
-# AIND-Soduku
-In this project, you will be writing code to implement two extensions of our sudoku solver. The first one will be to implement the technique called "naked twins". The second one will be to modify our existing code to solve a diagonal sudoku. To complete this project you will use the tools you learned about in the lesson, and build upon them.
 # Artificial Intelligence Nanodegree
+
+## AIND-Soduku
+In this project, you will be writing code to implement two extensions of our sudoku solver. The first one will be to implement the technique called "naked twins". The second one will be to modify our existing code to solve a diagonal sudoku. To complete this project you will use the tools you learned about in the lesson, and build upon them.
+
 ## Introductory Project: Diagonal Sudoku Solver
 
 Constraint propagation is in simple terms a method that makes a given problem simpler to solve. it is a way of applying constraint methods multiple times until a solution or conclusion is obtained.
 
-# Question 1 (Naked Twins)
+## Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
 A:  The Naked Twins technique is a way of using constrait propagation to exclude possibilites in a group.  In this case we identify a pair of twins within the same set of peers that have the same 2 numbers as possibilites.  The twin squares are typically visibile and hence the term 'naked twins'.  Because these two twins have no other possibilites we can deduce that 1 square must have 1 of the numbers and the other square the other number, hence a means of contraint propagation in order to reduce possible values.
 
@@ -13,7 +15,7 @@ A:  The Naked Twins technique is a way of using constrait propagation to exclude
   <img src="twins-git.png" />
 </p>
 
-# Question 2 (Diagonal Sudoku)
+## Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
 
  
